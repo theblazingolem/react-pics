@@ -1,0 +1,31 @@
+@font-face {
+    font-family: JBmonoReg;
+    src: url(assets/JBMono-Reg.ttf);
+}
+@font-face {
+    font-family: JBmonoBold;
+    src: url(assets/JBMono-Bold.ttf);
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: JBmonoReg;
+}
+h1 {
+    font-family: JBmonoBold;
+}
+p {
+    width: 600px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}

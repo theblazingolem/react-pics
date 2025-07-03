@@ -3,7 +3,7 @@ import srchLogo from "../assets/search.svg";
 
 export default function SearchBar() {
     return (
-        <div class="srch-bar">
+        <div className="srch-bar">
             <input type="text"></input>
             <img src={srchLogo} alt="" />
         </div>
