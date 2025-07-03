@@ -1,11 +1,11 @@
 import "./SearchBar.css";
-import srchLogo from "../assets/srch.svg";
+import srchLogo from "../assets/search.svg";
 
 export default function SearchBar() {
     return (
-        <>
+        <div class="srch-bar">
             <input type="text"></input>
-            {/* <img src="../assets/srch.svg"></img> */}
-        </>
+            <img src={srchLogo} alt="" />
+        </div>
     );
 }
