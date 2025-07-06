@@ -11,7 +11,7 @@ export default function SearchBar() {
         };
         srchBtn.addEventListener("click", srch);
         return () => {
-            srchBtn?.removeEventListener("click", srch); // 🧼 Clean up
+            srchBtn?.removeEventListener("click", srch);
         };
     }, []);
     return (
